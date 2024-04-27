@@ -101,9 +101,6 @@ table:focus {
   background-color: var(--button-color);
 }
 
-td:focus {
-  background-color: red;
-}
 * {
   -webkit-tap-highlight-color: transparent; /* Remove tap highlight color on webkit */
   -webkit-touch-callout: none; /* Disable callout on webkit */
