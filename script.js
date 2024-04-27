@@ -40,6 +40,7 @@ function changeTheme() {
       document.querySelectorAll("button")[i].style.boxShadow =
         "0px 0px 0px 0px";
     }
+    document.getElementById("float-img").src = "./assets/images/day-mode.png";
     theme = "dark";
   } else if (theme === "dark") {
     document.documentElement.style.setProperty("--bc-color", "white");
@@ -55,5 +56,6 @@ function changeTheme() {
       document.querySelectorAll("button")[i].style.boxShadow =
         "0px 0px 10px #e8e8e8";
     }
+    document.getElementById("float-img").src = "./assets/images/night-mode.png";
   }
 }
