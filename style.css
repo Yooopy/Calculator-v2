@@ -1,0 +1,89 @@
+:root {
+  --primary-color: #00f2ff;
+  --secondary-color: #cefdff;
+  --text-color: #242424;
+  --bc-color: white;
+  --button-color: #eeeeee;
+  --div-color: rgb(245, 252, 255);
+  --data-theme: "light";
+}
+
+table {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  /* margin-top: 20vh; */
+  /* margin-top: px; */
+}
+tr {
+  /* background-color: blue; */
+  height: fit-content;
+  width: fit-content;
+}
+button {
+  font-family: rubik;
+  height: 80px;
+  width: 70px;
+  background-color: var(--button-color);
+  border: none;
+  color: #3a3a3a;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px #e8e8e8;
+  margin: 2px;
+  transition: all 0.2s;
+  color: var(--text-color);
+}
+
+.main-art {
+  background-color: var(--div-color);
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+  border-radius: 32px;
+  margin: auto;
+  box-shadow: 0px 5px 20px -5px #cccccc;
+}
+
+.corner {
+  background-color: var(--secondary-color);
+}
+
+input {
+  background-color: var(--bc-color);
+  border: none;
+  outline: none;
+  height: 90px;
+  width: 290px;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  box-shadow: 0px 2px 20px -5px #cccc;
+  font-family: rubik;
+  font-size: 40px;
+  padding-left: 20px;
+  color: var(--text-color);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  transition: all 0.5s ease;
+  background-color: var(--bc-color);
+}
+
+button:hover {
+  filter: brightness(90%);
+  transform: scale(1.1);
+}
+button:active {
+  filter: brightness(80%);
+  transform: scale(1.05);
+}
